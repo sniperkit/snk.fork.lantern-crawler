@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
 import (
 	"fmt"
-	"github.com/SimonBackx/lantern-crawler/queries"
 	"runtime"
 	"time"
+
+	"github.com/sniperkit/snk.fork.lantern-crawler/queries"
 )
 
 type SpeedLogger struct {

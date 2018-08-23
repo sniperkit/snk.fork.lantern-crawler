@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package distributors
 
 import (
 	"crypto/tls"
 	"fmt"
-	"golang.org/x/net/proxy"
 	"io/ioutil"
 	"math"
 	"net/http"
 	"os/exec"
 	"time"
+
+	"golang.org/x/net/proxy"
 )
 
 type Tor struct {

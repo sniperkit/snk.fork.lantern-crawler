@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
 // The pop channel is a stacked channel used by workers to pop the next URL(s)

@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"fmt"
-	"github.com/SimonBackx/lantern-crawler/crawler"
 	"net/url"
+
+	"github.com/sniperkit/snk.fork.lantern-crawler/crawler"
 )
 
 func run(quit chan bool, finished chan bool) {

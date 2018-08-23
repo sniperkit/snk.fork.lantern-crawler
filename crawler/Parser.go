@@ -1,12 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
 import (
 	"bytes"
-	"github.com/SimonBackx/lantern-crawler/queries"
-	"golang.org/x/net/html"
 	"io"
 	"io/ioutil"
 	"net/url"
+
+	"golang.org/x/net/html"
+
+	"github.com/sniperkit/snk.fork.lantern-crawler/queries"
 )
 
 type ParseResult struct {

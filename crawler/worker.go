@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
 import (
 	"bufio"
 	"bytes"
 	"fmt"
+
 	//"github.com/PuerkitoBio/purell"
 	"io"
 	"math/rand"

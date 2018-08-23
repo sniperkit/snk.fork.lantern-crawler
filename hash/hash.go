@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package hash
 
 func ToBucket(str []byte, count uint64) int {

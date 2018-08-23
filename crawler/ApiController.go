@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
 import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/SimonBackx/lantern-crawler/queries"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"time"
+
+	"github.com/sniperkit/snk.fork.lantern-crawler/queries"
 )
 
 type ApiController struct {

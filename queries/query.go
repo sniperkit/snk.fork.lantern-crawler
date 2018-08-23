@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package queries
 
 import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"gopkg.in/mgo.v2/bson"
 	"regexp"
 	"strings"
 	"time"
+
+	"gopkg.in/mgo.v2/bson"
 )
 
 var cleanStringRegexp = regexp.MustCompile("(^|\\s)\\s+")

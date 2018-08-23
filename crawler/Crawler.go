@@ -1,10 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
 import (
 	"context"
 	"fmt"
-	"github.com/SimonBackx/lantern-crawler/distributors"
-	"github.com/SimonBackx/lantern-crawler/queries"
 	"io/ioutil"
 	"net/url"
 	"os"
@@ -12,6 +15,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/sniperkit/snk.fork.lantern-crawler/distributors"
+	"github.com/sniperkit/snk.fork.lantern-crawler/queries"
 )
 
 type Crawler struct {

@@ -1,8 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package crawler
 
-import "fmt"
-import "runtime"
-import "strings"
+import (
+	"fmt"
+	"runtime"
+	"strings"
+)
 
 func identifyPanic() string {
 	var name, file string
